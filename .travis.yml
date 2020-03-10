@@ -9,9 +9,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: dist
+  github_token: $GH_TOKEN
   keep_history: true
   on:
     branch: master
-env:
-  global:
-    secure: B0Jnvy7QkZK2T9Rm8B+3kSsuVqSRrql8qnFjrZFIKcUgBEg1xcIoOxP0r1lpKeMGLoSIcrQarSQVYToLhAs49MYu5xVsNoDog7jQYvBkoOTezCFRma9Wl6cxCm7BHMbO79kUc72sBLw3ayk2kJtqQm3PdAjxzHydWA0p8syXwgPDT4fdN7aq+itFAM14TouzYnv6Fb/JsgkvhKspFzxEQdIquqA4284X18gIxBvmzVbFhHvLKLjue3vFM1EpL+tQQQnSUX9So0IeJU/E5gpdCYffn0oNV7kXDoga2Di8q0fuTxz/0RMDizJCip/GphzWoY5TTAiZAUoLXVZHkcEDRyp/U98Xu4L1NNy2Cncnx6XnaZ65EO30SczYiDVxwzuH0BSBmZaVhpXkf837C/e759xmum1PHapS2ahsUFoy57Q1sHSrx+JKAozvKjjrj9MCo4xgjBYlNiKz1LVNXzC2PJ35cMp9V+sQrYWJ7pehM1sEl9p3LtBXPgB2+8Lhn7IRsJvFz17TAagHiCPFubBdSlKZjEedQclVcQauWHS26VpA1iWaqsbnggu4wav/yk2uB/+ZeDnhe4xypAFal01L3pluL+egntV77SZ3gWy/uae9Ck6rqsHiVevnnGSx8flFaMFbo1KVA59ePAV4YT9TZB1HlOiHzJQNZDWzqqQYdqI=
